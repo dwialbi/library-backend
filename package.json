@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ."
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,8 @@
     "jsonwebtoken": "^8.5.1",
     "moment": "^2.29.4",
     "mysql": "github:mysqljs/mysql",
-    "nodemailer": "^6.8.0"
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.8.0",
+    "sequelize": "^6.25.0"
   }
 }
