@@ -32,6 +32,18 @@ module.exports = (sequelize, DataTypes) => {
     stock: {
         type: DataTypes.INTEGER,
         allowNull: false,
+    },
+    image_url: {
+        type: DataTypes.STRING,
+        allowNull: false
+    },
+    synopsis: {
+        type: DataTypes.STRING,
+        allowNull: false
+    },
+    isbn: {
+        type: DataTypes.STRING,
+        allowNull: false
     }
     
   }, {
